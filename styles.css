@@ -38,6 +38,7 @@ a:hover {
 
 .navbar-brand {
     font-weight: bold;
+    width: 64px;
 }
 
 .navbar-nav .nav-link {
@@ -51,7 +52,8 @@ a:hover {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(45deg, #2c3e50, #34495e);
+    /* background: linear-gradient(45deg, #2c3e50, #34495e); */
+    background: #171a1c;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -79,6 +81,10 @@ a:hover {
 .hero .btn-primary:hover {
     background-color: #c0392b;
     border-color: #c0392b;
+}
+
+.hero img {
+    width: 100%;
 }
 
 /* Section Styles */
