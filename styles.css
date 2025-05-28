@@ -148,3 +148,13 @@ footer p {
     }
 }
 
+
+section#more {
+    background-color: #000000;
+    background-image: url('/mercury.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    color: #ffffff;
+}
